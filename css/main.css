@@ -24,6 +24,10 @@ body {
   margin: 0px;
 }
 
+div {
+  padding: 1rem;
+}
+
 a {
   background-color: #555;
   border: none;
@@ -32,6 +36,7 @@ a {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 4px;
 }
 
 @media only screen and (min-width: 25em) {
@@ -61,6 +66,17 @@ a {
 
   h1, p {
     margin: 0 0 1.4rem;
+  }
+
+  div{
+    display: inline-block;
+    width: 50%;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
   }
 
 }
