@@ -13,7 +13,8 @@ html {
   text-size-adjust: 100%;
 
   font-family: sans-serif;
-  background-color: #e2e2e2;
+  text-align: left;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -21,7 +22,8 @@ html {
 }
 
 body {
-  margin: 0px;
+  margin: 0em;
+  background-color: #e2e2e2;
 }
 
 a {
@@ -36,7 +38,7 @@ a {
 }
 
 .img-flex {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
