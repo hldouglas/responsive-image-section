@@ -14,7 +14,6 @@ html {
 
   font-family: sans-serif;
   text-align: left;
-  vertical-align: middle;
 }
 
 *, *::before, *::after {
@@ -38,12 +37,17 @@ a {
 }
 
 .img-flex {
+  display: block;
+  width: 100%;
   max-width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 
 .type {
   padding: 1em;
+  display: block;
+  vertical-align: middle;
 }
 
 @media only screen and (min-width: 25em) {
@@ -56,6 +60,8 @@ a {
   h1, p {
     margin: 0 0 1.3rem;
   }
+
+}
 
 @media only screen and (min-width: 38em) {
 
