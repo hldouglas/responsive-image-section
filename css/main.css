@@ -43,3 +43,9 @@ a {
 .type {
   padding: 1em;
 }
+
+@media only screen and (min-width: 90em) {
+  body {
+    padding: 2em;
+  }
+}
